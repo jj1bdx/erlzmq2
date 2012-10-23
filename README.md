@@ -4,6 +4,11 @@ NIF based Erlang bindings for the ZeroMQ messaging library.
 
 Copyright (c) 2011 Yurii Rashkovskii, Evax Software and Michael Truog
 
+NOTICE
+======
+Choose `3.x` branch for ZeroMQ 3.x support.
+This fork will focus on development of the branch.
+
 Overview
 ========
 
