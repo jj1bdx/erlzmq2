@@ -37,4 +37,4 @@ $(DEPS)/zeromq3: $(DEPS)
 	@cd $(DEPS)/zeromq3 && git checkout $(ZEROMQ_VERSION)
 
 $(DEPS)/zeromq3/src/.libs/libzmq.a: $(DEPS)/zeromq3
-	@cd $(DEPS)/zeromq3 && ./autogen.sh && ./configure $(ZMQ_FLAGS) && gmake
+	@cd $(DEPS)/zeromq3 && ./autogen.sh && ./configure CC=gcc46 CXX=g++46 $(ZMQ_FLAGS) && gmake
